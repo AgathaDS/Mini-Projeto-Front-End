@@ -1,0 +1,142 @@
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+html, input, button {
+    font-family: "Inter", sans-serif;
+}
+
+body {
+    height: 100vh;
+    width: 100vw;
+    background-color: #c9a8ee;
+    position: relative;
+}
+.container {
+    height: 100%;
+    width: 100%;
+    max-width: 720px;
+    margin: 0 auto;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+header {
+    margin-top: 36px;
+    margin-bottom: 40px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+}
+
+header h1 {
+    font-size: 32px;
+    color: #41068f;
+    margin-top: 16px;
+}
+
+header img {
+    height: 100%;
+    width: 100%;
+    margin: 50px;
+}
+
+.form {
+    display: flex;
+    gap: 16px;
+    margin-bottom: 32px;
+    width: 100%;
+}
+
+.form input {
+    border: 0;
+    min-height: 52px;
+    width: 100%;
+    color: #16002b;
+    border-radius: 5px;
+    padding: 16px 24px;
+}
+
+.form button {
+    background: #5e04b3ce;
+    color: #fff;
+    padding: 16px 32px;
+    border-radius: 5px; 
+    border: 0;
+    cursor: pointer;
+    animation: filter 0.5s ease;
+}
+.form button:hover {
+    filter: brightness(0.8);
+}
+.list {
+    width: 100%;
+    max-width: 720px;
+    margin: 0 auto;
+    color: #3a087c;
+}
+
+.list div {
+    display: flex;
+    justify-content: space-between;
+    padding: 16px 0;
+    margin-bottom: 32px;
+}
+
+.list div button {
+    background: #5e04b3ce;
+    color: #fff;
+    padding: 16px 29px;
+    border-radius: 5px; 
+    border: 0;
+    cursor: pointer;
+}
+
+.list div button:hover {
+    filter: brightness(0.8);
+}
+
+.list ul {
+    list-style: none;
+}
+
+.list ul li {
+    padding: 16px;
+    background: #5f3b8d;
+    border-radius: 5px;
+    color: #ffffff;
+    margin-bottom: 16px; 
+
+}
+
+.news {
+    position: absolute;
+    bottom: 32px;
+    right: 32px;
+    width: 322px;
+    height: 141px;
+    background: #5e04b3ce;
+    box-shadow: 7.9px 15.8px 15.8px hsl(0deg 0% 0% / 0.25);
+}
+
+.news div {
+    display: flex;
+    align-items: center;
+    padding: 8px;
+    font-size: 12px;
+    background: #a173eb;
+    color: #41068f;
+    font-weight: bold;
+}
+
+.news p {
+    padding: 16px;
+    width: 100%;
+    text-overflow: ellipsis;
+    font-size: 14px;
+    color: #ffffff;
+}
