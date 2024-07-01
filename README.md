@@ -2,6 +2,8 @@
 
  - O projeto consiste em criar  uma ferramenta que possamos adicionar nossos interesses e hobbies, que podem ser acessados a qualquer momento.  Junto a lista de interesses temos uma seção que mostra as últimas notícias que são retiradas da API do IBGE (http://servicodados.ibge.gov.br/api/v3/noticias/?tipo=release).
 
+ - Para rodar o projeto faça o download do repositório do projeto no Gitub (https://github.com/AgathaDS/Mini-Projeto-Front-End)
+
  - Utilizei o "setInterval" para recuperar a lista e atualizá-la a cada 1 segundo.
    
  - Crie a função “todosInteresses” que recupere todos os interesses adicionados no localStorage e os coloca na lista de 
